@@ -16,7 +16,7 @@ sudo apt-get install -y zip make cmake g++ libjemalloc-dev libboost-dev libgoogl
 # Download
 
 ```sh
-git clone https://github.com/luyi0619/aria.git
+git clone https://github.com/sam1016yu/aria.git
 ```
 
 # Build
