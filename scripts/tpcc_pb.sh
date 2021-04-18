@@ -1,0 +1,14 @@
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=1 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=2 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=4 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=6 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=8 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=10 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=12 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=36 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=60 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=84 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=108 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=132 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=156 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15
+./bench_tpcc --logtostderr=1 --id=1 --servers="10.10.1.3:9000;10.10.1.4:9000" --protocol=TwoPL --partitioner=pb --partition_num=180 --threads=12 --query=mixed --neworder_dist=10 --payment_dist=15

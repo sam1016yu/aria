@@ -38,6 +38,8 @@ public:
 
   TransactionResult execute(std::size_t worker_id) override {
 
+    // std::this_thread::sleep_for(std::chrono::microseconds(100));
+
     int32_t W_ID = this->partition_id + 1;
 
     // The input data (see Clause 2.4.3.2) are communicated to the SUT.
@@ -288,6 +290,8 @@ public:
   virtual ~Payment() override = default;
 
   TransactionResult execute(std::size_t worker_id) override {
+
+    std::this_thread::sleep_for(std::chrono::microseconds(100));
 
     int32_t W_ID = this->partition_id + 1;
 

@@ -51,6 +51,7 @@ public:
             *messages[coordinatorID], *table, writeKey.get_key(),
             writeKey.get_value());
       }
+      // std::this_thread::sleep_for(std::chrono::microseconds(100));
     }
 
     return true;
